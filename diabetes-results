@@ -1,0 +1,23 @@
+Classification Report
+
+Accuracy means Classification Accuracy rate of the model, in this case the Logistic Regression model has an accuracy of 79%.
+Precision means how accurate your model is, in this case, the model predicts that 76% of the time a suspected patient will get diabetes.
+Recall means  If there are patients who have diabetes in the test set and your Logistic Regression model can identify it 54% of the time
+
+
+Accuracy: 0.796875
+Precision: 0.7555555555555555
+Recall: 0.5483870967741935
+              precision    recall  f1-score   support
+
+           1       0.76      0.55      0.64        62
+           0       0.81      0.92      0.86       130
+
+    accuracy                           0.80       192
+   macro avg       0.78      0.73      0.75       192
+weighted avg       0.79      0.80      0.79       192
+
+
+Credit for the project goes to : https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python and
+https://gist.github.com/shinokada/e9160f96f62757a40b5f6f319a7b9bcc
+
